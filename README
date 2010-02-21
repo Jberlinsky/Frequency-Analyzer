@@ -1,0 +1,31 @@
+Character frequency analyzer
+
+Processes a string of length N in a time complexity of O(U*M), where U is the number of unique characters.
+
+Sample usage: python frequency_analyzer.py <FILENAME>
+
+Example:
+
+$ cat file
+This is a test of the frequency analysis.
+$ python frequency_analyzer.py file
+'c' occurs with a frequency of 1
+'\n' occurs with a frequency of 1
+'l' occurs with a frequency of 1
+'o' occurs with a frequency of 1
+'q' occurs with a frequency of 1
+'r' occurs with a frequency of 1
+'u' occurs with a frequency of 1
+'T' occurs with a frequency of 1
+'.' occurs with a frequency of 1
+'f' occurs with a frequency of 2
+'h' occurs with a frequency of 2
+'n' occurs with a frequency of 2
+'y' occurs with a frequency of 2
+'a' occurs with a frequency of 3
+'i' occurs with a frequency of 3
+'t' occurs with a frequency of 3
+'e' occurs with a frequency of 4
+'s' occurs with a frequency of 5
+' ' occurs with a frequency of 7
+$ 
